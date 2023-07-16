@@ -69,5 +69,24 @@ nav li a{
     width:100%;
 }
 
-/* Responsive Styles */
+/* Responsive Media  Queries */
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }   
+}
+
+/* Responsive Media Quries for medium devices */
+
+nav{
+    flex-direction: column;
+}
+/* View is better with original padding
+header{
+    padding: 50px;
+} */
 
