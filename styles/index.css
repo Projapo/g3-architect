@@ -90,3 +90,13 @@ header{
     padding: 50px;
 } */
 
+/* Main Styling */
+ main{
+    max-width: 1440px;
+    margin: 0 auto;
+ }
+/* Teams styling */
+.teams-container{
+    display:flex;
+    align-items: center;
+}
