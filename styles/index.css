@@ -6,7 +6,15 @@
 }
 /* shared styles*/
 .primary-btn{
-    
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    color:#fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+
 }
 /* header styles */
 header{
@@ -55,3 +63,11 @@ nav li a{
     color: #727272;
     font-size: 1rem;
 }
+
+.banner img{
+    margin-top: 20px;
+    width:100%;
+}
+
+/* Responsive Styles */
+
