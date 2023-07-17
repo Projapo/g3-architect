@@ -100,3 +100,36 @@ header{
     display:flex;
     align-items: center;
 }
+
+.teams-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+
+}
+.teams-content{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.teams-t{
+    font-size: 2.8rem;
+    font-family: Work Sans;
+    font-weight: 700;
+}
+.hh{
+   color: #727272;
+   font-weight: 500;
+}
+
+.h2{
+    color: #131313;   
+}
+.h3{
+    color: #FF900E; 
+}
+.teams-p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+
+}
