@@ -76,7 +76,7 @@ header{
 
 /* Main Styling */
 section{
-    width: 1440px;
+    max-width: 1000px;
     margin: 70px auto; 
 }
 
@@ -91,7 +91,9 @@ section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
-
+}
+.img{
+    width: 200px;
 }
 .teams-content{
     padding-right: 70px;
