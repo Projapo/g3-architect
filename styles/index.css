@@ -150,14 +150,15 @@ section{
 }
 
 /* Sponser Style */
+.sponser-img{
+    display:flex;
+    justify-content: space-evenly;
+}
+
 .sponsers{
     text-align: center;
 }
-.sponser-img{
-    display: flex;
-    justify-content: space-evenly;
 
-}
 
 
 /* Responsive Media  Queries */
