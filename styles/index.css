@@ -75,9 +75,14 @@ nav li a{
     header{
         padding: 20px;
     }
-    nav{
+
+    nav, .teams-container{
         flex-direction: column;
-    }   
+    } 
+    .teams-container{
+        grid-template-columns: 1fr;
+    }
+
 }
 
 /* Responsive Media Quries for medium devices */
@@ -91,15 +96,17 @@ header{
 } */
 
 /* Main Styling */
- main{
-    max-width: 1440px;
-    margin: 0 auto;
- }
+section{
+    width: 1440px;
+    margin: 0 auto; 
+}
+
 /* Teams styling */
 .teams-container{
     display:flex;
     align-items: center;
 }
+    
 
 .teams-img{
     display: grid;
@@ -131,5 +138,7 @@ header{
     font-size: 1rem;
     font-weight: 400;
     color: #727272;
-
+} 
+.img{
+    width: 300px;
 }
