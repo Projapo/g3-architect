@@ -152,6 +152,10 @@ section{
 /* Sponser Style */
 .sponsers{
     text-align: center;
+}
+.sponser-img{
+    display: flex;
+    justify-content: space-evenly;
 
 }
 
