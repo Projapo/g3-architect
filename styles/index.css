@@ -172,6 +172,26 @@ img{
 }
 
 /* Features Styles */
+.feature{
+    display: flex;
+    margin-top: 100px;
+    gap: 100px
+}
+.fh{
+    color: #131313;
+    font-size: 2.3rem;
+    font-weight: 700;
+}
+
+.fp{
+    color: #727272;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.feature-card > img{
+    border-radius: 8px;
+}
+
 
 /* Responsive Media  Queries */
 
