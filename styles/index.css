@@ -150,13 +150,20 @@ section{
 }
 
 /* Sponser Style */
-.sponser-img{
+.sponsers-img{
+    margin-top: 50px;
     display:flex;
     justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
 }
 
 .sponsers{
     text-align: center;
+}
+.sponsers-img img{
+    width: 120px;
+
 }
 
 
@@ -169,7 +176,7 @@ section{
     }
 
     nav, .teams-container,
-    .facts-card-container {
+    .facts-card-container, .sponsers-img {
         flex-direction: column;
     }
     .facts-card-container{
@@ -190,7 +197,7 @@ section{
 nav{
     flex-direction: column;
 }
-.teams-container{
+.teams-container, nav, .sponsers-img{
     flex-direction: column;
 
 }
