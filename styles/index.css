@@ -122,7 +122,7 @@ section{
 } 
 
 
-/* Facts Section Style*/
+/* Facts Section Style */
 .facts-card-container{
     display: flex;
     justify-content: space-around;
@@ -131,8 +131,7 @@ section{
     border-radius: 8px;
     border: 1px solid #FF900E;
     text-align:center;
-    padding: 30px;
-    
+    padding: 30px;    
   
 }
 .facts-card-container .card-stats{
@@ -147,6 +146,9 @@ section{
     font-size: 1.25rem;
     font-weight: 600;
     margin-top: 2px;
+} 
+.facts-card-container img{
+    width: 45px;
 }
 
 /* Sponser Style */
@@ -163,25 +165,11 @@ section{
 }
 .sponsers-img img{
     width: 120px;
-
-}
-/* Features Section class */
-.features{
-    display: flex;
-    margin-top: 100px;
-    gap:100px;
 }
 
-.feature-content, .card{
-    border-radius: 8px;
-    padding: 30px;
-    margin-bottom: 20px;
-    background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-
+img{
+    width: 500px;
 }
-
-
 
 /* Responsive Media  Queries */
 
