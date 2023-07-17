@@ -165,6 +165,21 @@ section{
     width: 120px;
 
 }
+/* Features Section class */
+.features{
+    display: flex;
+    margin-top: 100px;
+    gap:100px;
+}
+
+.feature-content, .card{
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+
+}
 
 
 
